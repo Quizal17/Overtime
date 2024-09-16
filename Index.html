@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTM</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">OVERTEAM</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="content">
+        <h1>Welcome to MyWebsite</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus.</p>
+    </section>
+
+    <section id="services" class="content">
+        <h2>Layanan Kami</h2>
+        <div class="card-container">
+            <div class="card">Service 1</div>
+            <div class="card">Service 2</div>
+            <div class="card">Service 3</div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="content">
+        <h2>Portfolio</h2>
+        <p>Lihat beberapa karya kami di bawah ini.</p>
+        <div class="portfolio-container">
+            <div class="portfolio-item">Project 1</div>
+            <div class="portfolio-item">Project 2</div>
+            <div class="portfolio-item">Project 3</div>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Hubungi Kami</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 quizalalibahmi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
